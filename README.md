@@ -22,6 +22,10 @@ In this baseline, you'll create a new Rails application and get started with two
   - create a controller action for the task `index` page which contains an array of hard-coded tasks
   - create an ERB view to display the tasks from the controller action
 
+### Controller Tests
+
+Tests have been created for waves 1 & 2.  You can find the tests in `test/controllers/tasks_controller_test.rb`, and you can execute the tests with `$ rails test`.  You may need to update the test file if your schema differs from the one in the spec.  For waves 3 & 4, you will need to fill in your own tests.
+
 ## Wave 1
 
 This wave is where we introduce ActiveRecord to create a model. We use the model to persist our data.
@@ -32,10 +36,6 @@ This wave is where we introduce ActiveRecord to create a model. We use the model
     - create at least 2 `Task` model instances using the `rails console`
 1. update the controller's `index` action you created to retrieve and show `all` Task objects from the database
     - you may need to update the view as well to use the model fields rather than the hard-coded data
-
-### Controller Tests
-
-Tests have been created for waves 1 & 2.  You can find the tests in `test/controllers/tasks_controller_test.rb`, and you can execute the tests with `$ rails test`.  
 
 ## Wave 2
 
