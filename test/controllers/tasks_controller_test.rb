@@ -1,5 +1,4 @@
 require "test_helper"
-require "minitest/skip_dsl"
 
 describe TasksController do
   let (:task) {
