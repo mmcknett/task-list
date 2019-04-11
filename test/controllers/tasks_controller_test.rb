@@ -1,6 +1,8 @@
 require "test_helper"
 
 describe TasksController do
+  # Note to students:  Your Task model **may** be different and
+  #   you may need to modify this.
   let (:task) {
     Task.create name: "sample task", description: "this is an example for a test",
                 completed: false
@@ -63,6 +65,8 @@ describe TasksController do
       skip
 
       # Arrange
+      # Note to students:  Your Task model **may** be different and
+      #   you may need to modify this.
       task_hash = {
         task: {
           name: "new task",
