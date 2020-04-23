@@ -36,7 +36,11 @@ This wave is where we introduce ActiveRecord to create a model. We use the model
 
 1. create a migration which will create a new `Task` model
     - create the database schema and tables by running the `rails db:migrate` command
-    - the `Task` model should include _at least_ a name, a description and a completion date
+    - the `Task` model should include _at least_ a name, a description and a completion date.
+    - the three fields should be named:
+        - `name` - The name of the task
+        - `description` - A text description of the task
+        - `completed_at` - The date, saved as text, in which the task was completed.
     - create at least 2 `Task` model instances using the `rails console`
 1. update the controller's `index` action you created to retrieve and show `all` Task objects from the database
     - you may need to update the view as well to use the model fields rather than the hard-coded data
